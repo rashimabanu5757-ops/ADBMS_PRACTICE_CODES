@@ -1,1 +1,5 @@
-create table cabhub (vcode number primary key, vehiclename varchar2(20), make varchar2(20), color varchar2(10), capacity number, charges number);
+create table vehicle(
+vehicle_id number(5),
+vehicle_name varchar2(20),
+price number(10)
+);
